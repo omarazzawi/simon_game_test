@@ -18,5 +18,8 @@
   "homepage": "https://github.com/omarazzawi/simon_game_test#readme",
   "dependencies": {
     "jest": "^30.1.3"
+  },
+  "devDependencies": {
+    "jest-environment-jsdom": "^30.1.2"
   }
 }
