@@ -39,6 +39,15 @@ describe("newGame works correctly", () => {
         newGame();
 
     });
+    
+    test("expect data-listener to be true", () => {
+        newGame();
+        const elements = document.getElementsByClassName("circle");
+        for (let element of elements) {
+            expect(element.getAttribute("data-listener")).toEqual("true");
+        }
+    });
+
     test("should set score to zero", () => {
         expect(game.score).toEqual(0); // Rest the score to zero
     });
