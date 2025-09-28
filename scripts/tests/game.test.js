@@ -126,7 +126,7 @@ describe("gameplay works correctly", () => {
      test("turnInProgress key exists", () => {
         expect("turnInProgress" in game).toBe(true);
     });
-     test("lastButton k key value is false ", () => {
+     test("lastButton  key value is false ", () => {
         expect("lastButton" in game).toBe(true);
     });
 });
